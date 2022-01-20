@@ -1,5 +1,6 @@
-### Conditional Formatting
+# **Conditional Formatting**
 
+## What is Conditional Formatting?
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FaithMeyer/AdvancedDataScience/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
