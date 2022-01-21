@@ -1,6 +1,8 @@
 # **Conditional Formatting**
+### Faith Meyer
 
-## What is Conditional Formatting?
+## What am I talking about?
+In this tutorial I will be talking about the Excel tool called Conditional Formatting. This is one of the tools to help you organize your data. It will also help you visualize the range of your data in a different way than just creating a graph or sorting your data. Conditional Formatting is a tool that can look at the full range of your data and color code it in whatever color scheme you would like. There are plenty of other ways it can be used such as for creating macros and formatting your data in different ways. 
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FaithMeyer/AdvancedDataScience/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
