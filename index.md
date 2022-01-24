@@ -16,7 +16,7 @@ Here is a step by step guide of how to use this tool. Before we begin, make sure
 
 3. Now that we have our blank workbook, we need to import our data. Look at the very top of the screen. You will see a line with a bunch of different tabs, you want to click on the tab that says data. Down below all of those tabs is what is called the tool bar. This is a bar with many different actions that is used a lot when working with Excel. On the toolbar, click on the option that says from csv. After the button is clicked, navigate to where you saved your data set and it will be imported into your workbook.
 
-4. Once you have the data set you are going to work with is imported, you can manipulate it in order to get as much or as little data that you want. Once you are happy with the data you have, you need to go back to the home tab. One major thing to know about conditional formatting is that it will only work if the data is just raw numbers. If they have any sort of unit of measurement or string attached to it, this tool will not work.
+4. Once you have the data set you are going to work with is imported, you can manipulate it in order to get as much or as little data that you want. Once you are happy with the data you have, you need to go back to the home tab. One major thing to know about conditional formatting is that it will only work if the data is just raw numbers. If they have any sort of unit of measurement or string attached to it, this tool will not work. To clean up the data and get rid of the unit of measurement we need to use a formula. The formula is =NUMBERVALUE((TEXTJOIN("",TRUE,IFERROR(MID(B3,SEQUENCE(20),1)+0,"")))).
 
 5. On the home tab, the tool bar is divided into eight different categories. If you look at the fifth category, the style category, on the left most side you will see an option with the name Conditional Formatting. This is the tool we will be using to visualize the range of our data. This is what I was describing in some of my earlier sections.
 
@@ -26,9 +26,21 @@ Here is a step by step guide of how to use this tool. Before we begin, make sure
 
 8. After clicking on the More Rules option, another box opens up with more ways you can play with your data. I want to format the cells based on their data so that I can see the full range of how different the amount of snow that appeared was between a certain amount of time. If I keep the data the way it is, you will just see a your data with different colors scattered throughout the set in no particular order. That is okay for this data set since it is a small amount of data with not a very large range, but if you have a much larger range and data set, it may help to use the sort tool, which you will learn about in a different tutorial.
 
-### Datasets Used
-https://www.kaggle.com/mrmarjo/resort-daily-snowfall-20092017/version/1?select=Snowbird+-+Utah.csv
+## Another Use of Conditional Formatting
+Another use of Conditional Formatting is to see which of your data points is above or below the average of your data set. For this example I made up my own data set. I created a new Excel workbook full of the number of hours different employees worked over a period of time. We will use this to see which employees work above average and which ones work below average.
 
+1. Since you have made it this far in the tutorial, you should already have Excel open. To make a new workbook after having one open you would go to File->New and click on Blank workbook.
+
+2. Now that you have the blank workbook open, we can create our data set. You can either import a data set like we did for the first part, or create your own. I created my own, so I used row number 1 as my header and Column A as my Employee Names. Row 1 should have the headers Employee Name in Column A and Hours Worked in Column B.
+
+3. For this data set, I want to see which Employees work above the average number of hours, and which ones work below the average. The first step is optional, but you could figure out the average number of hours worked for all of the employees. You would use the formula =Average(B2:B27). Inside the parenthasis you would change it to (Start cell: End cell).
+
+4. Now we need to highlight out data again and click on Conditional Formatting like last time. You will see that the same dropdown will appear, but this time we will click on the option called Top and Bottom Rules.
+
+### Sources Used
+1. https://www.kaggle.com/mrmarjo/resort-daily-snowfall-20092017/version/1?select=Snowbird+-+Utah.csv
+2. My friend Veronique who told me about the formula to get rid of the units of measurements
+3. Created my own data set for hours worked
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FaithMeyer/AdvancedDataScience/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
