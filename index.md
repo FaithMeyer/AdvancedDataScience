@@ -32,7 +32,7 @@ Here is a step by step guide of how to use this tool. Before we begin, make sure
 ![Dropdown_Options](/dropdownoptions.png)
 
 8. After clicking on the More Rules option, another box opens up with more ways you can play with your data. I want to format the cells based on their data so that I can see the full range of how different the amount of snow that appeared was between a certain amount of time.
-![Dropdown_Options](/dropdownoptions.png)
+![More_Rules](/morerules.png)
 
 
 9.  If I keep the data the way it is, you will just see a your data with different colors scattered throughout the set in no particular order. That is okay for this data set since it is a small amount of data with not a very large range, but if you have a much larger range and data set, it may help to use the sort tool, which you will learn about in a different tutorial.
