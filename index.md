@@ -37,10 +37,20 @@ Another use of Conditional Formatting is to see which of your data points is abo
 
 4. Now we need to highlight out data again and click on Conditional Formatting like last time. You will see that the same dropdown will appear, but this time we will click on the option called Top and Bottom Rules.
 
+5. Once you click on that option, you want to click on the button that says Above Average. Then you can select a color scheme that you want to pick for the datapoints that are above the average number of hours worked.
+
+6. To get the data points that are below average, you would do the same thing, only click on the button that says Below Average.
+
+7. Now you are able to see who worked above or below average work hours.
+
+## Now It's Your Turn
+
+
 ### Sources Used
-1. https://www.kaggle.com/mrmarjo/resort-daily-snowfall-20092017/version/1?select=Snowbird+-+Utah.csv
+1. Data Set 1: https://www.kaggle.com/mrmarjo/resort-daily-snowfall-20092017/version/1?select=Snowbird+-+Utah.csv
 2. My friend Veronique who told me about the formula to get rid of the units of measurements
 3. Created my own data set for hours worked
+4. Class Tries: https://weatherspark.com/y/21872/Average-Weather-in-Maryland-City-Maryland-United-States-Year-Round
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FaithMeyer/AdvancedDataScience/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
