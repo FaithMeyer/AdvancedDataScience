@@ -62,7 +62,7 @@ Another use of Conditional Formatting is to see which of your data points is abo
 
 ## Now It's Your Turn
 Try playing around with conditional formatting using this temperature data set!
-![TemperatureSet](./ClassTries.xlsx)
+[TemperatureSet](./ClassTries.xlsx)
 
 ### Sources Used
 1. Data Set 1: https://www.kaggle.com/mrmarjo/resort-daily-snowfall-20092017/version/1?select=Snowbird+-+Utah.csv
